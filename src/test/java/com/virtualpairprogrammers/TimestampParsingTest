@@ -17,7 +17,7 @@ public class TimestampParsingTest
 	public void invalidTimestampsFailCorrectly() 
 	{
 		// Format: EEE MMM dd HH:mm:ss zzz yyyy		
-		Position position = new Position("23", "211", "Monday January 75 aa:15:00 +0000 2017");
+		Position position = new Position("23", "2111", "Monday January 75 aa:15:00 +0000 2017");
 	}
 	
 }
